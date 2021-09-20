@@ -1,0 +1,21 @@
+
+.btn-circle {
+  width: 25px;
+  height: 25px;
+  padding: 6px 0px;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 12px;
+}
+.btn2.btn-default  {background:transparent,  border-color: #252d3d !important;}
+.btn2.btn2-primary {background-color: #08426a !important;  border-color: #252d3d !important; color : #fff !important}
+th, td { white-space: nowrap; }
+div.dataTables_wrapper {
+  margin: 0 auto;
+}
+div.container {
+  width: 80%;
+}
+th { font-size: 12px; }
+td { font-size: 11px; }
+label { font-size: 12px; }

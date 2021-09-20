@@ -1,0 +1,5 @@
+@include('partials.top-admin')
+@include('partials.header-admin')
+@include('partials.nav-admin')
+  @yield('content')
+@include('partials.footer-admin')
