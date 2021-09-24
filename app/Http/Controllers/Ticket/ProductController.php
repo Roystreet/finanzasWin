@@ -2,18 +2,18 @@
 
 namespace App\Http\Controllers\Ticket;
 
-use Illuminate\Http\Request;
-use App\Http\Controllers\Controller;
-use App\Classes\BitacoraClass;
-use App\Models\Product\Product;
-use App\Models\Product\ProductAction;
-use App\Models\General\Money;
-use App\Models\Product\Price;
-use Illuminate\Support\Facades\DB;
-use App\Classes\MainClass;
-use App\Models\General\Rol_permissions;
-use App\Models\General\Main;
-use \stdClass;
+use Illuminate\Http\Request;            // clase request
+use App\Http\Controllers\Controller;    //
+use App\Classes\BitacoraClass;          // clase  bitacora 
+use App\Models\Product\Product;         // tabla de productos 
+use App\Models\Product\ProductAction;   // tabla de ProductAction
+use App\Models\General\Money;           // tabla moneys
+use App\Models\Product\Price;           // tabla prices
+use Illuminate\Support\Facades\DB;      //
+use App\Classes\MainClass;              //
+use App\Models\General\Rol_permissions; // Permisos
+use App\Models\General\Main;            //
+use \stdClass;                          //
 
 class ProductController extends Controller
 {
