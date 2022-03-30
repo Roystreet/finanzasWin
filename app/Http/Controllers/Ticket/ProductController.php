@@ -21,7 +21,7 @@ class ProductController extends Controller
 		$this->middleware('auth');
 	}
 
-  public function ProductPermisos(){
+  public function ProductPermisos(){  
     $a = new stdClass();
 
     $a->create = false;
