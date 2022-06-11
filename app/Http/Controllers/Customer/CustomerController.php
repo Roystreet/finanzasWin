@@ -493,9 +493,9 @@ class CustomerController extends Controller{
                     break;
                     }
                  }else{
-                   $cambiarstatus->status_system = 1;
-                   $cambiarstatus->save();
-                   break;
+                  // $cambiarstatus->status_system = 1;
+                  // $cambiarstatus->save();
+                  // break;
                  }
            }
 // FIN   CAMBIAR ESTATUS DEL CUSTOMER SEGUN SI TENGA TICKET CON ESTATUS DIFERENTES A 5 (INACTIVO)

@@ -5,12 +5,12 @@ namespace App\Models\Ticket;
 use Illuminate\Database\Eloquent\Model;
 use App\Models\Ticket\Ticket;
 use App\Models\Product\Product;
-use OwenIt\Auditing\Contracts\Auditable;
+//use OwenIt\Auditing\Contracts\Auditable;
 use App\Models\General\Money;
 
-class TicketDs extends Model implements Auditable
+class TicketDs extends Model //implements Auditable
 {
-  use \OwenIt\Auditing\Auditable;
+ // use \OwenIt\Auditing\Auditable;
   protected $table = 'ticket_ds';
   protected $fillable  = ['id_ticket', 'id_product','cant','price','id_money','total','status_user', 'created_at', 'modified_by'];
 

@@ -14,13 +14,13 @@ use App\Models\General\State;
 use App\Models\General\City;
 use App\Models\General\Status;
 use App\Models\General\Banks;
-use OwenIt\Auditing\Contracts\Auditable;
+//use OwenIt\Auditing\Contracts\Auditable;
 
 use App\User;
 
-class Ticket extends Model implements Auditable
+class Ticket extends Model //implements Auditable
 {
-  use \OwenIt\Auditing\Auditable;
+  //use \OwenIt\Auditing\Auditable;
   protected $table = 'tickets';
   protected $fillable  = ['cod_ticket','id_customer','id_invited_by','id_pay','total','status_user', 'created_at',
   'modified_by','create_by','number_operation','id_country_invert','date_pay', 'note','donate','obser_int','id_banck'];

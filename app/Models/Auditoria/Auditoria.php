@@ -47,9 +47,9 @@ class Auditoria extends Model
      *
      * @var array
      */
-    public static $rules = [
-        'id' => 'required'
-    ];
+    // public static $rules = [
+    //     'id' => 'required'
+    // ];
     public function userModified()
     {
       return $this->belongsTo(User::class, 'user_id');
